@@ -1,40 +1,337 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
 
-    <!-- Html Page Specific -->
-    <meta charset="UTF-8">
-    <title>ACORE | Software Development</title>
-    <meta name="description" content="ACORE | Development and Consultancy">
-    <meta name="keywords" content="ACORE, Development, Consultancy">
-    <meta name="author" content="ACORE | acore.com.ua">
+<html lang="en" ng-app="">
+<head>
 
-    <!-- Mobile Specific -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<!-- Html Page Specific -->
+<meta charset="utf-8">
+<title>ACORE | Software development company</title>
+<meta name="description" content="ACORE | Software development company">
+<meta name="author" content="ACORE | acore.com.ua">
 
-    <!-- Favicons -->
-    <link rel="icon" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/touch-icon-114x114.png">
+<!-- Mobile Specific -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="scripts/html5shiv.js"></script>
+<![endif]-->
 
-    <!-- JS  -->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/animate.css"/>
+<link rel="stylesheet" href="css/simple-line-icons.css"/>
+<link rel="stylesheet" href="css/icomoon-soc-icons.css"/>
+<link rel="stylesheet" href="css/magnific-popup.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/font-awesome.css"/>
 
+
+
+<!-- Favicons -->
+<link rel="icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/touch-icon-114x114.png">
 </head>
-<body id="development">
-    <!-- Navigation -->
-    <nav class="navbar navbar-fixed-top navbar-slide">
-        <div class="container_fluid">
 
-        </div>
+<body data-spy="scroll" data-target=".navMenuCollapse">
 
-    </nav>
-    <!-- JavaScript plugins -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<!-- PRELOADER -->
+<div id="preloader">
+	<div class="battery inner">
+		<div class="load-line"></div>
+	</div>
+</div>
+
+<div id="wrap"> 
+
+	<!-- NAVIGATION BEGIN -->
+	<nav class="navbar navbar-fixed-top ">
+			<div class="container">
+				<a class="navbar-brand goto" href="index.html#wrap"> <img src="./images/ACORE-logo.png" alt="ACORE | Software development company" /> </a>
+				<a class="contact-btn icon-envelope" data-toggle="modal" data-target="#modalContact"></a>
+				<button class="navbar-toggle menu-collapse-btn collapsed" data-toggle="collapse" data-target=".navMenuCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<div class="collapse navbar-collapse navMenuCollapse">
+					<ul class="nav">
+						<li><a href="#">Company</a> </li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Industries</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div>
+			</div>
+	</nav>
+	<!-- NAVIGAION END -->
+	
+	
+	
+	<!-- INTRO BEGIN -->
+	<header id="full-intro" class="intro-block bg-color-main" >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<h1 class="slogan">Design and develop innovative products for web and mobile platforms</h1>
+				</div>
+				<div class="col-md-6 hidden-sm hidden-xs">
+					<img class="intro-screen wow fadeIn" data-wow-delay="0.5s" src="images/intro_screen.png"  alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="block-bg" data-stellar-ratio="0.4"></div>
+	</header>
+	<!-- INTRO END --> 
+	
+	
+	
+	<!-- FEATURES BEGIN -->
+	<section id="features" class="img-block-3col">
+		<div class="container">
+			<div class="title wow fadeIn">
+				<h2>What we do</h2>
+				<p class="wow fadeIn">We develop sustainable digital products that solve problems, and optimise your business</p>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<ul class="item-list-right item-list-big">
+						<li class="wow fadeInLeft">
+							<i class="fa fa-globe"></i>
+							<h3>WEB application development</h3>
+							<p>We design & develop Web applications that look good, and that's just the beginning... :)</p>
+						</li>
+						<li class="wow fadeInLeft">
+							<i class="fa fa-tablet"></i>
+							<h3>Mobile App
+								Development</h3>
+							<p>We design & develop high-end mobile applications for iOS and Android</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-4 col-sm-push-4">
+					<ul class="item-list-left item-list-big">
+						<li class="wow fadeInRight">
+							<i class="fa fa-connectdevelop "></i>
+							<h3>Costom software development</h3>
+							<p>Design & develop custom business applications and multi-tenant software-as-a-service applications</p>
+						</li>
+						<li class="wow fadeInRight">
+							<i class="fa fa-bug"></i>
+							<h3>quality assurance and Testing</h3>
+							<p>We make complex software testing services</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-4 col-sm-pull-4">
+					<div class="animation-box wow fadeInUp">
+					 	<img class="highlight-left wow" src="images/light.png" height="192" width="48" alt="" />
+						<img class="highlight-right wow" src="images/light.png" height="192" width="48" alt="" />
+						<img class="screen" src="images/features_screen.png" alt=""  width="300" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FEATURES END --> 
+
+	
+	<!-- BENEFITS1 BEGIN -->
+	<section id="benefits1" class="img-block-3col">
+		<div class="container">
+			<div class="title">
+				<h2>About Us</h2>
+				<p>Acore is a software design and development company that provides end-to-end development service for
+					web and mobile development</p>
+			</div>
+			<div class="col-sm-6 col-sm-push-6" align="justify">
+				<p>We work on a wide range of technologies ranging from open source to proprietary and custom built solutions.</p>
+				<p>With years of experience we have perfected the process, system & technologies that enable us to create
+					high-quality, scalable web and mobile solutions.</p>
+				<p>Our goal is to always have our end products reflect our deep engineering skills and elegant progressive design aesthetic.</p>
+				<p>We fundamentally believe in developing long term strategic partnerships with our clients by exceeding expectations and a great level of transparency.</p>
+			</div>
+			<div class="col-sm-6 col-sm-pull-6">
+				<div class="screen-couple-left wow fadeInLeftBig">
+					<img class="screen above" src="images/about-us.png" alt="" width="100%"/>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!-- BENEFITS1 END -->
+	
+	
+	
+
+	
+	<!-- APPROACH BEGIN -->
+	<section id="approach">
+		<div class="container">
+			<div class="title">
+				<h2>OUR APPROACH</h2>
+				<p>We build user friendly web & mobile applications and on-line systems based on scalable solutions</p>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<ul class="item-list-center item-list-big">
+						<li class="wow fadeInLeft">
+							<i class="fa fa-code fa-5x" ></i>
+							<h3>TECHNOLOGY</h3>
+							<p>We combine technologies to achieve the best results. We also develop for iOS and Android platforms.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-4 col-sm-push-4">
+					<ul class="item-list-center item-list-big">
+						<li class="wow fadeInRight">
+							<i class="fa fa-crop fa-5x"></i>
+							<h3>USABILITY</h3>
+							<p>During the design process we make good use of various professional tools to help us build useful and easy to use systems.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-4 col-sm-pull-4">
+					<ul class="item-list-center item-list-big">
+						<li class="wow fadeInUp">
+							<i class="fa fa-comments-o fa-5x"></i>
+							<h3>COMMUNICATION</h3>
+							<p>For client communication we use popular tools like Skype for video conferences, Jira for project management and Google Docs for document sharing.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- APPROACH END -->
+	
+
+	
+	
+	<!-- FACTS BEGIN -->
+	<section id="facts">
+		<div class="container">
+			<ul class="facts-list">
+				<li class="wow bounceIn">
+					<i class="fa fa-users fa-3x"></i>
+					<h3 class="wow">25</h3>
+					<h4>TEAM MEMBERS</h4>
+				</li>
+				<li class="wow bounceIn" data-wow-delay="0.4s">
+					<i class="fa fa-thumbs-o-up fa-3x"></i>
+					<h3 class="wow">30+</h3>
+					<h4>HAPPY CLIENTS</h4>
+				</li>
+				<li class="wow bounceIn" data-wow-delay="0.8s">
+					<i class="fa fa-briefcase fa-3x"></i>
+					<h3 class="wow">80+</h3>
+					<h4>SUCCESSFUL PROJECTS</h4>
+				</li>
+				<li class="wow bounceIn" data-wow-delay="1.2s">
+					<i class="fa fa-clock-o fa-3x"></i>
+					<h3 class="wow">2</h3>
+					<h4>YEARS IN BUSINESS</h4>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- FACTS END --> 
+
+	
+	<!-- FOOTER BEGIN -->
+	<footer class="contacts">
+			<div class="container">
+				<div class="col-md-4">
+					<article class="contacts-block offset bottom-border">
+						<h2>Contacts</h2>
+						<p><i class="fa fa-map-marker" ></i>Kyiv, Ukraine</p>
+						<p><i class="fa fa-phone "></i>+380 96 546 0502</p>
+						<p><i class="fa fa-envelope "></i><a href="mailto:info@acore.com.ua">acore@com.com.ua</a></p>
+					</article>
+				</div>
+				<div class="col-md-4">
+					<article class="contacts-block offset left-border">
+						<h2>Services</h2>
+						<p><a href="#">Web applications development</a></p>
+						<p><a href="#">Mobile applications development</a></p>
+						<p><a href="#">Costom software development</a></p>
+						<p><a href="#">Quality assurance adn testing</a></p>
+					</article>
+				</div>
+				<div class="col-md-4">
+					<article class="contacts-block offset left-border">
+						<h2>Subscribe</h2>
+
+							<form>
+								<label for="contacts-email">Be aware of news</label>
+								<div class="form-group has-feedback">
+									<input type="email" class="form-control " id="contacts-email" placeholder="Enter email">
+									<i class="fa fa-pencil-square fa-lg form-control-feedback"></i>
+								</div>
+							</form>
+					</article>
+				</div>
+			</div>
+	</footer>
+	<!-- FOOTER END --> 
+	
+</div>
+
+
+<!-- MODALS BEGIN--> 
+
+<!-- subscribe modal-->
+<div class="modal fade" id="modalMessage" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h3 class="modal-title"></h3>
+		</div>
+	</div>
+</div>
+
+<!-- contact modal-->
+<div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h3 class="modal-title">Contact</h3>
+			<form action="scripts/contact.php" role="form"  id="contact_form">
+						<div class="form-group">
+							<input type="text" class="form-control" id="contact_name" placeholder="Full name" name="name">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="contact_email" placeholder="Email Address" name="email">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="3" placeholder="Your message or question" id="contact_message" name="message"></textarea>
+						</div>
+						<button type="submit" id="contact_submit" data-loading-text="&bull;&bull;&bull;"> <i class="icon icon-paper-plane"></i></button>
+					</form>
+		</div>
+	</div>
+</div>
+
+<!-- MODALS END-->
+
+
+<!-- JavaScript --> 
+<script src="scripts/jquery-1.8.2.min.js"></script> 
+<script src="scripts/bootstrap.min.js"></script> 
+<script src="scripts/owl.carousel.min.js"></script> 
+<script src="scripts/jquery.validate.min.js"></script> 
+<script src="scripts/wow.min.js"></script> 
+<script src="scripts/smoothscroll.js"></script> 
+<script src="scripts/jquery.smooth-scroll.min.js"></script> 
+<script src="scripts/jquery.superslides.min.js"></script>
+<script src="scripts/placeholders.jquery.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/jquery.stellar.min.js"></script>
+<script src="scripts/retina.min.js"></script>
+<script src="scripts/custom.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+<!--[if lte IE 9]>
+	<script src="scripts/respond.min.js"></script>
+<![endif]-->
 </body>
 </html>
