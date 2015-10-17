@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" ng-app="">
+<html lang="en" >
 <head>
 
 <!-- Html Page Specific -->
@@ -34,7 +34,7 @@
 <link rel="apple-touch-icon" sizes="114x114" href="images/touch-icon-114x114.png">
 </head>
 
-<body data-spy="scroll" data-target=".navMenuCollapse">
+<body data-spy="scroll" data-target=".navMenuCollapse" ng-app="">
 
 <!-- PRELOADER -->
 <div id="preloader">
@@ -81,8 +81,8 @@
 		<div class="block-bg" data-stellar-ratio="0.4"></div>
 	</header>
 	<!-- INTRO END --> 
-	
-	
+	<input type="text" ng-model="name" >
+	hello {{name}}
 	
 	<!-- FEATURES BEGIN -->
 	<section id="features" class="img-block-3col">
