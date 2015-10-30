@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" >
+<html lang="en" ng-app="">
 <head>
 
 <!-- Html Page Specific -->
@@ -12,6 +12,8 @@
 <!-- Mobile Specific -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
+
+		<script type="text/javascript" src="no"></script>
 <!--[if lt IE 9]>
     <script type="text/javascript" src="scripts/html5shiv.js"></script>
 <![endif]-->
@@ -34,16 +36,16 @@
 <link rel="apple-touch-icon" sizes="114x114" href="images/touch-icon-114x114.png">
 </head>
 
-<body data-spy="scroll" data-target=".navMenuCollapse" ng-app="">
+<body data-spy="scroll" data-target=".navMenuCollapse" ng-controller="">
 
 <!-- PRELOADER -->
-<div id="preloader">
+<!--<div id="preloader">
 	<div class="battery inner">
 		<div class="load-line"></div>
 	</div>
-</div>
+</div>-->
 
-<div id="wrap"> 
+<div id="wrap" >
 
 	<!-- NAVIGATION BEGIN -->
 	<nav class="navbar navbar-fixed-top ">
@@ -63,9 +65,9 @@
 		</div>
 	</nav>
 	<!-- NAVIGAION END -->
-	
-	
-	
+
+
+
 	<!-- INTRO BEGIN -->
 	<header id="full-intro" class="intro-block bg-color-main" >
 		<div class="container">
@@ -80,10 +82,11 @@
 		</div>
 		<div class="block-bg" data-stellar-ratio="0.4"></div>
 	</header>
-	<!-- INTRO END --> 
-	<input type="text" ng-model="name" >
-	hello {{name}}
-	
+	<!-- INTRO END -->
+
+
+	<input type="text" ng-model="name">
+	{{name}}
 	<!-- FEATURES BEGIN -->
 	<section id="features" class="img-block-3col">
 		<div class="container">
@@ -132,7 +135,7 @@
 		</div>
 	</section>
 	<!-- FEATURES END --> 
-
+		{{2 + 5}}
 	
 	<!-- BENEFITS1 BEGIN -->
 	<section id="benefits1" class="img-block-3col">
@@ -329,7 +332,6 @@
 <script src="scripts/custom.js"></script>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
 <!--[if lte IE 9]>
 	<script src="scripts/respond.min.js"></script>
 <![endif]-->

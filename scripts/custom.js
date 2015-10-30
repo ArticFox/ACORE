@@ -49,7 +49,7 @@ if(!(navigator.userAgent.match(/iPhone|iPad|iPod|Android|BlackBerry|IEMobile/i))
         }
     });
 	
-})
+});
 
 
 
